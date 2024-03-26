@@ -1,0 +1,36 @@
+[
+  {
+    "name": "clientes",
+    "test": "clientes",
+    "type": "request",
+    "end": "2024-03-09T03:15:15.571Z",
+    "result": {
+      "status": "Submitted",
+      "message": "Request 'clientes' SUBMITTED"
+    },
+    "request": {
+      "name": "clientes",
+      "type": "request",
+      "url": "http://localhost:3333/customer",
+      "method": "POST",
+      "headers": {},
+      "submitted": "2024-03-09T03:15:15.470Z"
+    },
+    "response": {
+      "runId": "741b19d62db",
+      "status": {
+        "code": 200,
+        "message": "OK"
+      },
+      "headers": {
+        "access-control-allow-origin": "*",
+        "connection": "close",
+        "content-length": "11",
+        "content-type": "application/json; charset=utf-8",
+        "date": "Sat, 09 Mar 2024 03:15:15 GMT"
+      },
+      "body": "{\n  \"ok\": true\n}",
+      "time": 74
+    }
+  }
+]

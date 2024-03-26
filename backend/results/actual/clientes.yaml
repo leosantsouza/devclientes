@@ -1,0 +1,19 @@
+clientes:  # 09/03/2024, 00:15:15:470
+  request:
+    url: http://localhost:3333/customer
+    method: POST
+    headers: {}
+  response:  # 74 ms
+    status:
+      code: 200
+      message: OK
+    headers:
+      access-control-allow-origin: '*'
+      connection: close
+      content-length: '11'
+      content-type: application/json; charset=utf-8
+      date: Sat, 09 Mar 2024 03:15:15 GMT
+    body: |-
+      {
+        "ok": true
+      }
